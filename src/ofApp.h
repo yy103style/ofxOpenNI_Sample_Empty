@@ -20,5 +20,11 @@ public:
 	void mousePressed(int x, int y, int button);
 	void mouseReleased(int x, int y, int button);
 	void windowResized(int w, int h);
+    ofSoundPlayer beat[25];
+    
+    ofVec3f cameraRotation;
+    float zoom, zoomTarget;
+    ofColor c;
+    
 };
 
